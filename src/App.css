@@ -1,0 +1,51 @@
+.display input{
+  width: 340px;
+  height:60px ;
+  border: 0;
+  outline: 0;
+}
+ button{
+  border: 0;
+  outline: 0;
+  border-radius: 5px;
+ height: 60px;
+ width:60px;
+ margin:12px;
+ font-size: 23px;
+
+}
+button {
+text-align: center;
+}
+button:hover{
+  background-color: orange;
+}
+.shrink{
+  display: flex;
+  flex-wrap: nowrap ;
+
+}
+.rounded{
+  text-align: right;
+  font-size: 25px;
+}
+
+@media(max-width:400px){
+
+  .display input{
+    width:200px;
+  
+  }
+
+
+  .shrink button{
+    height: 40px;
+    width:50px;
+    font-size: 15px;
+  }
+
+ 
+
+}
+
+
